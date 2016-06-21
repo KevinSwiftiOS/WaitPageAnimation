@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		387BE16B1D18F1A900B1A208 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387BE16A1D18F1A900B1A208 /* AppDelegate.swift */; };
+		387BE16D1D18F1A900B1A208 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387BE16C1D18F1A900B1A208 /* ViewController.swift */; };
+		387BE1701D18F1A900B1A208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387BE16E1D18F1A900B1A208 /* Main.storyboard */; };
+		387BE1721D18F1A900B1A208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387BE1711D18F1A900B1A208 /* Assets.xcassets */; };
+		387BE1751D18F1A900B1A208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387BE1731D18F1A900B1A208 /* LaunchScreen.storyboard */; };
+		387BE17D1D18F1C700B1A208 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387BE17C1D18F1C700B1A208 /* AnimationView.swift */; };
+		387BE1811D18F3B600B1A208 /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387BE1801D18F3B600B1A208 /* CircleLayer.swift */; };
+		387BE1831D18F78E00B1A208 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387BE1821D18F78E00B1A208 /* Extension.swift */; };
+		387BE1851D18FC0B00B1A208 /* TriangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387BE1841D18FC0B00B1A208 /* TriangleLayer.swift */; };
+		387BE1871D190D0100B1A208 /* RectangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387BE1861D190D0100B1A208 /* RectangleLayer.swift */; };
+		387BE1891D190FF600B1A208 /* WaveLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387BE1881D190FF600B1A208 /* WaveLayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		387BE1671D18F1A900B1A208 /* 复杂动画的实现.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "复杂动画的实现.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		387BE16A1D18F1A900B1A208 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		387BE16C1D18F1A900B1A208 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		387BE16F1D18F1A900B1A208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		387BE1711D18F1A900B1A208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		387BE1741D18F1A900B1A208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		387BE1761D18F1A900B1A208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387BE17C1D18F1C700B1A208 /* AnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		387BE1801D18F3B600B1A208 /* CircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLayer.swift; sourceTree = "<group>"; };
+		387BE1821D18F78E00B1A208 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		387BE1841D18FC0B00B1A208 /* TriangleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleLayer.swift; sourceTree = "<group>"; };
+		387BE1861D190D0100B1A208 /* RectangleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleLayer.swift; sourceTree = "<group>"; };
+		387BE1881D190FF600B1A208 /* WaveLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveLayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		387BE1641D18F1A900B1A208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		387BE15E1D18F1A900B1A208 = {
+			isa = PBXGroup;
+			children = (
+				387BE1691D18F1A900B1A208 /* 复杂动画的实现 */,
+				387BE1681D18F1A900B1A208 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		387BE1681D18F1A900B1A208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				387BE1671D18F1A900B1A208 /* 复杂动画的实现.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		387BE1691D18F1A900B1A208 /* 复杂动画的实现 */ = {
+			isa = PBXGroup;
+			children = (
+				387BE17F1D18F3A400B1A208 /* Layer */,
+				387BE17E1D18F39800B1A208 /* HWView */,
+				387BE16A1D18F1A900B1A208 /* AppDelegate.swift */,
+				387BE16C1D18F1A900B1A208 /* ViewController.swift */,
+				387BE16E1D18F1A900B1A208 /* Main.storyboard */,
+				387BE1821D18F78E00B1A208 /* Extension.swift */,
+				387BE1711D18F1A900B1A208 /* Assets.xcassets */,
+				387BE1731D18F1A900B1A208 /* LaunchScreen.storyboard */,
+				387BE1761D18F1A900B1A208 /* Info.plist */,
+			);
+			path = "复杂动画的实现";
+			sourceTree = "<group>";
+		};
+		387BE17E1D18F39800B1A208 /* HWView */ = {
+			isa = PBXGroup;
+			children = (
+				387BE17C1D18F1C700B1A208 /* AnimationView.swift */,
+			);
+			name = HWView;
+			sourceTree = "<group>";
+		};
+		387BE17F1D18F3A400B1A208 /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				387BE1801D18F3B600B1A208 /* CircleLayer.swift */,
+				387BE1841D18FC0B00B1A208 /* TriangleLayer.swift */,
+				387BE1861D190D0100B1A208 /* RectangleLayer.swift */,
+				387BE1881D190FF600B1A208 /* WaveLayer.swift */,
+			);
+			name = Layer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		387BE1661D18F1A900B1A208 /* 复杂动画的实现 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387BE1791D18F1A900B1A208 /* Build configuration list for PBXNativeTarget "复杂动画的实现" */;
+			buildPhases = (
+				387BE1631D18F1A900B1A208 /* Sources */,
+				387BE1641D18F1A900B1A208 /* Frameworks */,
+				387BE1651D18F1A900B1A208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "复杂动画的实现";
+			productName = "复杂动画的实现";
+			productReference = 387BE1671D18F1A900B1A208 /* 复杂动画的实现.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		387BE15F1D18F1A900B1A208 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hznucai;
+				TargetAttributes = {
+					387BE1661D18F1A900B1A208 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 387BE1621D18F1A900B1A208 /* Build configuration list for PBXProject "复杂动画的实现" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 387BE15E1D18F1A900B1A208;
+			productRefGroup = 387BE1681D18F1A900B1A208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				387BE1661D18F1A900B1A208 /* 复杂动画的实现 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		387BE1651D18F1A900B1A208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387BE1751D18F1A900B1A208 /* LaunchScreen.storyboard in Resources */,
+				387BE1721D18F1A900B1A208 /* Assets.xcassets in Resources */,
+				387BE1701D18F1A900B1A208 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		387BE1631D18F1A900B1A208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387BE1831D18F78E00B1A208 /* Extension.swift in Sources */,
+				387BE17D1D18F1C700B1A208 /* AnimationView.swift in Sources */,
+				387BE1891D190FF600B1A208 /* WaveLayer.swift in Sources */,
+				387BE1871D190D0100B1A208 /* RectangleLayer.swift in Sources */,
+				387BE16D1D18F1A900B1A208 /* ViewController.swift in Sources */,
+				387BE1851D18FC0B00B1A208 /* TriangleLayer.swift in Sources */,
+				387BE16B1D18F1A900B1A208 /* AppDelegate.swift in Sources */,
+				387BE1811D18F3B600B1A208 /* CircleLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		387BE16E1D18F1A900B1A208 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				387BE16F1D18F1A900B1A208 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		387BE1731D18F1A900B1A208 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				387BE1741D18F1A900B1A208 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		387BE1771D18F1A900B1A208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		387BE1781D18F1A900B1A208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		387BE17A1D18F1A900B1A208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "复杂动画的实现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hznucai.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		387BE17B1D18F1A900B1A208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "复杂动画的实现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hznucai.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		387BE1621D18F1A900B1A208 /* Build configuration list for PBXProject "复杂动画的实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387BE1771D18F1A900B1A208 /* Debug */,
+				387BE1781D18F1A900B1A208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		387BE1791D18F1A900B1A208 /* Build configuration list for PBXNativeTarget "复杂动画的实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387BE17A1D18F1A900B1A208 /* Debug */,
+				387BE17B1D18F1A900B1A208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 387BE15F1D18F1A900B1A208 /* Project object */;
+}
